@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_218245_newneedit.NewNeedItBusinessUtils</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>NewNeedItBusinessUtils</name>
+        <script><![CDATA[var NewNeedItBusinessUtils = Class.create();
+NewNeedItBusinessUtils.prototype = {
+    initialize: function() {
+    },
+	isEmailValid: function(emailstr) {
+	//Function to check if email is valid
+		emailstr=emailstr+'';
+		if(emailstr.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){ 
+			return true; 
+		}
+		else { return false;}
+	},
+
+    type:'NewNeedItBusinessUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-02 12:00:06</sys_created_on>
+        <sys_id>9164f10a4f351300c742e321a310c779</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewNeedItBusinessUtils</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sys_script_include_9164f10a4f351300c742e321a310c779</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-02 12:00:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

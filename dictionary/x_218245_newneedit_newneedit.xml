@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="NewNeedIt" max_length="40" name="x_218245_newneedit_newneedit" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested For Email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="facilities" label="Request Sub Type" mandatory="true" max_length="40" name="u_request_sub_type" type="string">
+            <choice>
+                <element label="Facilities" sequence="0" value="facilities"/>
+                <element label="Human Resources" sequence="1" value="hr"/>
+                <element label="Legal" sequence="2" value="legal"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="facilities" label="Request Type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element label="Facilities" sequence="0" value="facilities"/>
+                <element label="Human Resources" sequence="1" value="hr"/>
+                <element label="Legal" sequence="2" value="legal"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="When Needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>

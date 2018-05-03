@@ -2,46 +2,18 @@
 <record_update>
     <sys_ui_section caption="Details" section_id="9e66e5024f351300c742e321a310c7d8" sys_domain="global" table="x_218245_newneedit_newneedit" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>comments</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-02 10:50:10</sys_created_on>
-            <sys_id>6a6629024f351300c742e321a310c75d</sys_id>
+            <sys_created_on>2018-05-03 12:31:49</sys_created_on>
+            <sys_id>c1474fd64ffd1300c742e321a310c738</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Details" display_value="Details" name="x_218245_newneedit_newneedit" sys_domain="global" view="Default view">9e66e5024f351300c742e321a310c7d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-02 10:50:10</sys_updated_on>
+            <sys_updated_on>2018-05-03 12:31:49</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-02 10:50:10</sys_created_on>
-            <sys_id>ea6629024f351300c742e321a310c75d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Details" display_value="Details" name="x_218245_newneedit_newneedit" sys_domain="global" view="Default view">9e66e5024f351300c742e321a310c7d8</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-02 10:50:10</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-02 10:50:10</sys_created_on>
-            <sys_id>6e6629024f351300c742e321a310c75d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="Details" display_value="Details" name="x_218245_newneedit_newneedit" sys_domain="global" view="Default view">9e66e5024f351300c742e321a310c7d8</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-02 10:50:10</sys_updated_on>
-            <sys_user/>
-            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Details</caption>

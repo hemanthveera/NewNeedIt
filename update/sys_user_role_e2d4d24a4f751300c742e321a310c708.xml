@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_218245_newneedit.newneedit_tasks_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>newneedit_tasks_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-02 14:13:04</sys_created_on>
+        <sys_id>e2d4d24a4f751300c742e321a310c708</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_218245_newneedit.newneedit_tasks_user</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sys_user_role_e2d4d24a4f751300c742e321a310c708</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-02 14:13:04</sys_updated_on>
+    </sys_user_role>
+</record_update>

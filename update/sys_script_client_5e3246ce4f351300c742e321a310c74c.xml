@@ -10,20 +10,24 @@
         <messages/>
         <name>NewNeedIt Populate Email</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '' || newValue == oldValue) {
-      return;
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {   
+	var curemail= g_form.getValue("u_requested_for_email");
+	//return only if email is populated and newValue is equal to oldValue
+   if (curemail != '' && newValue == oldValue){
+	   return;
    }
    //call NewNeedItGetEmail function from class NewNeedItClientUtils
 	var getEmailAddr = new GlideAjax("NewNeedItClientUtils");
 	getEmailAddr.addParam("sysparm_name","NewNeedItGetEmail");
 	getEmailAddr.addParam("sysparm_userID",g_form.getValue("u_requested_for"));
-	getEmailAddr.getXML(fnpopulateemail);
+	//getEmailAddr.getXML(fnpopulateemail);
+	getEmailAddr.getXMLAnswer(fnpopulateemail);
 	
 	function fnpopulateemail(response){
-		var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		//var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
 		g_form.clearValue("u_requested_for_email");
-		g_form.setValue("u_requested_for_email",emailFromScriptInclude);
+		//g_form.setValue("u_requested_for_email",emailFromScriptInclude);
+		g_form.setValue("u_requested_for_email",response);
 	}	
    
 }]]></script>
@@ -33,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e3246ce4f351300c742e321a310c74c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>NewNeedIt Populate Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
@@ -41,7 +45,7 @@
         <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
         <sys_update_name>sys_script_client_5e3246ce4f351300c742e321a310c74c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-02 13:19:31</sys_updated_on>
+        <sys_updated_on>2018-05-03 12:50:50</sys_updated_on>
         <table>x_218245_newneedit_newneedit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

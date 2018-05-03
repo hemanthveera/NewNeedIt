@@ -17,7 +17,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-05-02 11:24:16</sys_updated_on>
         <table>x_218245_newneedit_newneedit</table>
-        <ui_policy display_value="NewNeedIt ">256da5064f351300c742e321a310c716</ui_policy>
+        <ui_policy display_value="NewNeedIt Make Other Field Visible based on value for Request_Sub_Type">256da5064f351300c742e321a310c716</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

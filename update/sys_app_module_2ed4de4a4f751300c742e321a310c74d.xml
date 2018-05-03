@@ -7,38 +7,38 @@
         <content_page/>
         <device_type/>
         <filter/>
-        <hint>Submit a new record for NewNeedIt</hint>
+        <hint/>
         <homepage/>
         <image/>
-        <link_type>NEW</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Create New</mobile_title>
+        <mobile_title>NewNeedIt Tasks</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_218245_newneedit_newneedit</name>
-        <order>100</order>
+        <name>x_218245_newneedit_newneedit_tasks</name>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
-        <query>x_218245_newneedit_newneedit_list.do?sys_id=-1&amp;sysparm_view=User_View</query>
+        <query/>
         <report/>
-        <roles>x_218245_newneedit.newneedit_user</roles>
+        <roles>x_218245_newneedit.newneedit_tasks_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-02 10:39:41</sys_created_on>
+        <sys_created_on>2018-05-02 14:13:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1b83e18e4ff11300c742e321a310c7a5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Create New</sys_name>
+        <sys_id>2ed4de4a4f751300c742e321a310c74d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewNeedIt Tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
-        <sys_update_name>sys_app_module_1b83e18e4ff11300c742e321a310c7a5</sys_update_name>
+        <sys_update_name>sys_app_module_2ed4de4a4f751300c742e321a310c74d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-02 14:45:59</sys_updated_on>
+        <sys_updated_on>2018-05-02 14:13:04</sys_updated_on>
         <timeline_page/>
-        <title>Create New</title>
+        <title>NewNeedIt Tasks</title>
         <uncancelable>false</uncancelable>
-        <view_name>User_View</view_name>
+        <view_name/>
         <window_name/>
     </sys_app_module>
 </record_update>

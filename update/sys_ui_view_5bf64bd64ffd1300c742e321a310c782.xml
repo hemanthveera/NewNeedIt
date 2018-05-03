@@ -3,21 +3,21 @@
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
-        <name>User_View</name>
-        <roles>x_218245_newneedit.newneedit_user</roles>
+        <name>Advanced_View</name>
+        <roles>x_218245_newneedit.NewNeedItAdmin</roles>
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-02 10:47:06</sys_created_on>
-        <sys_id>d1b521024f351300c742e321a310c7f3</sys_id>
+        <sys_created_on>2018-05-03 12:30:35</sys_created_on>
+        <sys_id>5bf64bd64ffd1300c742e321a310c782</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>User View</sys_name>
+        <sys_name>Advanced View</sys_name>
         <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
-        <sys_update_name>sys_ui_view_d1b521024f351300c742e321a310c7f3</sys_update_name>
+        <sys_update_name>sys_ui_view_5bf64bd64ffd1300c742e321a310c782</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-03 08:19:27</sys_updated_on>
-        <title>User View</title>
+        <sys_updated_on>2018-05-03 12:33:12</sys_updated_on>
+        <title>Advanced View</title>
         <user/>
     </sys_ui_view>
 </record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="13f64bd64ffd1300c742e321a310c787" sys_domain="global" table="x_218245_newneedit_newneedit" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53f64bd64ffd1300c742e321a310c789</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_218245_newneedit_newneedit" name="x_218245_newneedit_newneedit" sys_domain="global" view="5bf64bd64ffd1300c742e321a310c782">13f64bd64ffd1300c742e321a310c787</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_218245_newneedit_newneedit" sys_domain="global" view="5bf64bd64ffd1300c742e321a310c782">5bf64bd64ffd1300c742e321a310c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:30:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bf68bd64ffd1300c742e321a310c712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_218245_newneedit_newneedit" name="x_218245_newneedit_newneedit" sys_domain="global" view="5bf64bd64ffd1300c742e321a310c782">13f64bd64ffd1300c742e321a310c787</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_218245_newneedit_newneedit" sys_domain="global" view="5bf64bd64ffd1300c742e321a310c782">17f64bd64ffd1300c742e321a310c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:30:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_218245_newneedit_newneedit</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13f64bd64ffd1300c742e321a310c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_218245_newneedit_newneedit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+            <sys_update_name>sys_ui_form_sections_13f64bd64ffd1300c742e321a310c787</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:30:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Advanced View" name="Advanced_View">5bf64bd64ffd1300c742e321a310c782</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

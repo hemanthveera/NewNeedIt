@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_218245_newneedit.newneedit_tasks_user" name="x_218245_newneedit.newneedit_tasks_user">e2d4d24a4f751300c742e321a310c708</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-02 14:13:04</sys_created_on>
+        <sys_id>66d4d24a4f751300c742e321a310c70a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e2d4d24a4f751300c742e321a310c708</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sys_embedded_help_role_66d4d24a4f751300c742e321a310c70a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-02 14:13:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

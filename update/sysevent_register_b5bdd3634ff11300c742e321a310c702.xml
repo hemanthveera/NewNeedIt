@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>This Event is fired for Each NewNeedIt Tasks to be due within next 24 hours</description>
+        <event_name>x_218245_newneedit.newNeedItdueSoonTasks</event_name>
+        <fired_by>Scheduled Script - Find newNeedIt To Be Overdue Tasks</fired_by>
+        <queue/>
+        <suffix>newNeedItdueSoonTasks</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-07 11:23:43</sys_created_on>
+        <sys_id>b5bdd3634ff11300c742e321a310c702</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_218245_newneedit.newNeedItdueSoonTasks</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sysevent_register_b5bdd3634ff11300c742e321a310c702</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-07 11:23:43</sys_updated_on>
+        <table>x_218245_newneedit_newneedit_tasks</table>
+    </sysevent_register>
+</record_update>

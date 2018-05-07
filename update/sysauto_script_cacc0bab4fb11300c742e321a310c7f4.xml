@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Find NewNeedIt Overdue Tasks</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-05-07 10:08:19</run_start>
+        <run_time>1970-01-01 16:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var rightnow = new GlideDateTime();
+var overdueNNITasks = new GlideRecord("x_218245_newneedit_newneedit_tasks");
+overdueNNITasks.addQuery("due_date","<=",rightnow);
+overdueNNITasks.addQuery("state","!=",3);
+overdueNNITasks.query();
+
+while (overdueNNITasks.next()){
+	gs.info("Overdue NewNeedIt Tasks: "+overdueNNITasks.number);	gs.eventQueue("x_218245_newneedit.overdueNewNeedItTasks",overdueNNITasks,overdueNNITasks.number,gs.getUserName());
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-07 10:15:29</sys_created_on>
+        <sys_id>cacc0bab4fb11300c742e321a310c7f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Find NewNeedIt Overdue Tasks</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sysauto_script_cacc0bab4fb11300c742e321a310c7f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-07 11:16:20</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

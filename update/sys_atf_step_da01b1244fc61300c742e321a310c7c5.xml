@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+When Needed = 2018-05-04 23:22:05</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <order>3</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:01:23</sys_created_on>
+        <sys_id>da01b1244fc61300c742e321a310c7c5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sys_atf_step_da01b1244fc61300c742e321a310c7c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:22:05</sys_updated_on>
+        <table>x_218245_newneedit_newneedit</table>
+        <test display_value="NewNeedIt WhenNeeded Past">dd086fb34f3d1300c742e321a310c7fb</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=da01b1244fc61300c742e321a310c7c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>da01b1244fc61300c742e321a310c7c5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:01:24</sys_created_on>
+        <sys_id>1a0175244fc61300c742e321a310c71b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:01:24</sys_updated_on>
+        <value>x_218245_newneedit_newneedit</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>da01b1244fc61300c742e321a310c7c5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:01:24</sys_created_on>
+        <sys_id>da0175244fc61300c742e321a310c71b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:22:05</sys_updated_on>
+        <value>u_when_needed=javascript: gs.daysAgo(5)^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+</record_update>

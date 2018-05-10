@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Confirm that the following fields are visible: Number, Requested For, Request Type, Request Sub Type, Short description, Requested For Email, Description</description>
+        <display_name>Field State Validation</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>5c8739684fc61300c742e321a310c70b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Field State Validation</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sys_atf_step_5c8739684fc61300c742e321a310c70b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:30:51</sys_updated_on>
+        <table>x_218245_newneedit_newneedit</table>
+        <test display_value="NewNeedIt WhenNeeded future">0077fd284fc61300c742e321a310c708</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5c8739684fc61300c742e321a310c70b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c8739684fc61300c742e321a310c70b</document_key>
+        <order>410</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>108739684fc61300c742e321a310c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:29:40</sys_updated_on>
+        <value/>
+        <variable display_value="">787a9b535320220002c6435723dc3455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c8739684fc61300c742e321a310c70b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>588739684fc61300c742e321a310c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:29:40</sys_updated_on>
+        <value>x_218245_newneedit_newneedit</value>
+        <variable display_value="">80f953535320220002c6435723dc340f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c8739684fc61300c742e321a310c70b</document_key>
+        <order>210</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>5c8739684fc61300c742e321a310c70c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:29:40</sys_updated_on>
+        <value/>
+        <variable display_value="">e81ad3535320220002c6435723dc340c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c8739684fc61300c742e321a310c70b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>948739684fc61300c742e321a310c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:29:40</sys_updated_on>
+        <value/>
+        <variable display_value="">6e5a1b535320220002c6435723dc3498</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c8739684fc61300c742e321a310c70b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>988739684fc61300c742e321a310c70c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:29:40</sys_updated_on>
+        <value/>
+        <variable display_value="">592a17535320220002c6435723dc34d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c8739684fc61300c742e321a310c70b</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>d08739684fc61300c742e321a310c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:29:40</sys_updated_on>
+        <value/>
+        <variable display_value="">e63a97535320220002c6435723dc34b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5c8739684fc61300c742e321a310c70b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:29:40</sys_created_on>
+        <sys_id>d48739684fc61300c742e321a310c70c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:30:51</sys_updated_on>
+        <value>number,u_requested_for,u_request_type,u_request_sub_type,short_description,u_requested_for_email,description</value>
+        <variable display_value="">0cd9df135320220002c6435723dc3426</variable>
+    </sys_variable_value>
+</record_update>

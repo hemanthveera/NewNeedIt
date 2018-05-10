@@ -3,58 +3,53 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>Set the values on the form as follows:
-When Needed = 2018-05-30 17:00:00
-and Request Sub Type = Facilities
-and Requested For = Hemanth Srikireeti Veera
-and Request Type = Facilities
-and Short description = ATF Test1
-and Description = ATF Test1</description>
+When Needed = 2018-05-09 23:32:07</description>
         <display_name>Set Field Values</display_name>
         <inputs/>
         <order>3</order>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-08 06:49:25</sys_created_on>
-        <sys_id>ce48afb34f3d1300c742e321a310c7ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-05-10 06:24:21</sys_created_on>
+        <sys_id>aa46f9284fc61300c742e321a310c79d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Set Field Values</sys_name>
         <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
-        <sys_update_name>sys_atf_step_ce48afb34f3d1300c742e321a310c7ba</sys_update_name>
+        <sys_update_name>sys_atf_step_aa46f9284fc61300c742e321a310c79d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-08 06:49:25</sys_updated_on>
+        <sys_updated_on>2018-05-10 06:27:07</sys_updated_on>
         <table>x_218245_newneedit_newneedit</table>
-        <test display_value="NewNeedIt Test 1">dd086fb34f3d1300c742e321a310c7fb</test>
+        <test display_value="NewNeedIt WhenNeeded Present">4226b9284fc61300c742e321a310c77c</test>
         <timeout/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=ce48afb34f3d1300c742e321a310c7ba"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aa46f9284fc61300c742e321a310c79d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>ce48afb34f3d1300c742e321a310c7ba</document_key>
+        <document_key>aa46f9284fc61300c742e321a310c79d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-08 06:49:25</sys_created_on>
-        <sys_id>5ed86f734f3d1300c742e321a310c71b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-05-10 06:24:21</sys_created_on>
+        <sys_id>6a46f9284fc61300c742e321a310c79e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-08 06:49:25</sys_updated_on>
-        <value>u_when_needed=2018-05-31 00:00:00^u_request_sub_type=facilities^u_requested_for=e49a16954f711300c742e321a310c7eb^u_request_type=facilities^short_description=ATF Test1^description=ATF Test1^EQ</value>
+        <sys_updated_on>2018-05-10 06:27:07</sys_updated_on>
+        <value>u_when_needed=javascript: gs.minutesAgo(-5)^EQ</value>
         <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>ce48afb34f3d1300c742e321a310c7ba</document_key>
+        <document_key>aa46f9284fc61300c742e321a310c79d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-08 06:49:25</sys_created_on>
-        <sys_id>9ad86f734f3d1300c742e321a310c71b</sys_id>
+        <sys_created_on>2018-05-10 06:24:21</sys_created_on>
+        <sys_id>a646f9284fc61300c742e321a310c79e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-08 06:49:25</sys_updated_on>
+        <sys_updated_on>2018-05-10 06:24:21</sys_updated_on>
         <value>x_218245_newneedit_newneedit</value>
         <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
     </sys_variable_value>

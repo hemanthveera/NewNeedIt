@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 06:31:30</sys_created_on>
+        <sys_id>c5e7f9684fc61300c742e321a310c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9335bde44fc61300c742e321a310c72d</sys_name>
+        <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_c5e7f9684fc61300c742e321a310c7fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 06:31:30</sys_updated_on>
+        <test display_value="NewNeedIt WhenNeeded Present">4226b9284fc61300c742e321a310c77c</test>
+        <test_suite display_value="NewNeedIt WhenNeeded Past">9335bde44fc61300c742e321a310c72d</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

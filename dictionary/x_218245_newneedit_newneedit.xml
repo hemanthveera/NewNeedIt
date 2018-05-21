@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="NewNeedIt" max_length="40" name="x_218245_newneedit_newneedit" type="collection">
+    <element audit="true" extends="task" label="NewNeedIt" max_length="40" name="x_218245_newneedit_newneedit" sizeclass="7" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested For Email" max_length="40" name="u_requested_for_email" read_only="true" type="string"/>

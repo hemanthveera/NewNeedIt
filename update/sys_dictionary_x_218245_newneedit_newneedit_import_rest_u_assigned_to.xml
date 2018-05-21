@@ -49,7 +49,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-08 10:42:04</sys_created_on>
-        <sys_id>59b7a1ac4f861300c742e321a310c711</sys_id>
+        <sys_id>3db1afe04fca1300c742e321a310c7d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Assigned to</sys_name>
         <sys_package display_value="NewNeedIt" source="x_218245_newneedit">a302ed0e4ff11300c742e321a310c7fb</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="NewNeedIt">a302ed0e4ff11300c742e321a310c7fb</sys_scope>
         <sys_update_name>sys_dictionary_x_218245_newneedit_newneedit_import_rest_u_assigned_to</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-05-10 05:20:45</sys_updated_on>
+        <sys_updated_on>2018-05-10 14:13:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

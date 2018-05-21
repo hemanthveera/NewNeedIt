@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="NewNeedIt Tasks" max_length="40" name="x_218245_newneedit_newneedit_tasks" type="collection"/>
+    <element audit="true" extends="task" label="NewNeedIt Tasks" max_length="40" name="x_218245_newneedit_newneedit_tasks" sizeclass="7" type="collection"/>
 </database>
